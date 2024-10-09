@@ -35,7 +35,7 @@ export default class Counter implements Contract {
         console.log('provider:', provider);
 
       await provider.internal(via, {
-        value: "0.05", // send 0.002 TON for gas
+        value: "0.0018", // send 0.002 TON for gas
         body: messageBody
       });
 
